@@ -1,0 +1,66 @@
+C:\Users\RC_Student_Lab\source\repos\PART 3\PART 3\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\RC_Student_Lab\source\repos\PART 3\PART 3\bin\Debug\net6.0\appsettings.json
+C:\Users\RC_Student_Lab\source\repos\PART 3\PART 3\bin\Debug\net6.0\PART 3.staticwebassets.runtime.json
+C:\Users\RC_Student_Lab\source\repos\PART 3\PART 3\bin\Debug\net6.0\PART 3.staticwebassets.endpoints.json
+C:\Users\RC_Student_Lab\source\repos\PART 3\PART 3\bin\Debug\net6.0\PART 3.exe
+C:\Users\RC_Student_Lab\source\repos\PART 3\PART 3\bin\Debug\net6.0\PART 3.deps.json
+C:\Users\RC_Student_Lab\source\repos\PART 3\PART 3\bin\Debug\net6.0\PART 3.runtimeconfig.json
+C:\Users\RC_Student_Lab\source\repos\PART 3\PART 3\bin\Debug\net6.0\PART 3.dll
+C:\Users\RC_Student_Lab\source\repos\PART 3\PART 3\bin\Debug\net6.0\PART 3.pdb
+C:\Users\RC_Student_Lab\source\repos\PART 3\PART 3\obj\Debug\net6.0\rpswa.dswa.cache.json
+C:\Users\RC_Student_Lab\source\repos\PART 3\PART 3\obj\Debug\net6.0\PART 3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\RC_Student_Lab\source\repos\PART 3\PART 3\obj\Debug\net6.0\PART 3.AssemblyInfoInputs.cache
+C:\Users\RC_Student_Lab\source\repos\PART 3\PART 3\obj\Debug\net6.0\PART 3.AssemblyInfo.cs
+C:\Users\RC_Student_Lab\source\repos\PART 3\PART 3\obj\Debug\net6.0\PART 3.csproj.CoreCompileInputs.cache
+C:\Users\RC_Student_Lab\source\repos\PART 3\PART 3\obj\Debug\net6.0\PART 3.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\RC_Student_Lab\source\repos\PART 3\PART 3\obj\Debug\net6.0\PART 3.RazorAssemblyInfo.cache
+C:\Users\RC_Student_Lab\source\repos\PART 3\PART 3\obj\Debug\net6.0\PART 3.RazorAssemblyInfo.cs
+C:\Users\RC_Student_Lab\source\repos\PART 3\PART 3\obj\Debug\net6.0\rjimswa.dswa.cache.json
+C:\Users\RC_Student_Lab\source\repos\PART 3\PART 3\obj\Debug\net6.0\rjsmrazor.dswa.cache.json
+C:\Users\RC_Student_Lab\source\repos\PART 3\PART 3\obj\Debug\net6.0\rjsmcshtml.dswa.cache.json
+C:\Users\RC_Student_Lab\source\repos\PART 3\PART 3\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\RC_Student_Lab\source\repos\PART 3\PART 3\obj\Debug\net6.0\scopedcss\bundle\PART 3.styles.css
+C:\Users\RC_Student_Lab\source\repos\PART 3\PART 3\obj\Debug\net6.0\scopedcss\projectbundle\PART 3.bundle.scp.css
+C:\Users\RC_Student_Lab\source\repos\PART 3\PART 3\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\RC_Student_Lab\source\repos\PART 3\PART 3\obj\Debug\net6.0\staticwebassets.build.json.cache
+C:\Users\RC_Student_Lab\source\repos\PART 3\PART 3\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\RC_Student_Lab\source\repos\PART 3\PART 3\obj\Debug\net6.0\staticwebassets.build.endpoints.json
+C:\Users\RC_Student_Lab\source\repos\PART 3\PART 3\obj\Debug\net6.0\staticwebassets.upToDateCheck.txt
+C:\Users\RC_Student_Lab\source\repos\PART 3\PART 3\obj\Debug\net6.0\PART 3.dll
+C:\Users\RC_Student_Lab\source\repos\PART 3\PART 3\obj\Debug\net6.0\refint\PART 3.dll
+C:\Users\RC_Student_Lab\source\repos\PART 3\PART 3\obj\Debug\net6.0\PART 3.pdb
+C:\Users\RC_Student_Lab\source\repos\PART 3\PART 3\obj\Debug\net6.0\PART 3.genruntimeconfig.cache
+C:\Users\RC_Student_Lab\source\repos\PART 3\PART 3\obj\Debug\net6.0\ref\PART 3.dll
+C:\Users\Student\Desktop\PART 3 POE BUCHULE MQINGWANA ST10367481\PART 3\PART 3\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Student\Desktop\PART 3 POE BUCHULE MQINGWANA ST10367481\PART 3\PART 3\bin\Debug\net6.0\appsettings.json
+C:\Users\Student\Desktop\PART 3 POE BUCHULE MQINGWANA ST10367481\PART 3\PART 3\bin\Debug\net6.0\PART 3.staticwebassets.endpoints.json
+C:\Users\Student\Desktop\PART 3 POE BUCHULE MQINGWANA ST10367481\PART 3\PART 3\bin\Debug\net6.0\PART 3.staticwebassets.runtime.json
+C:\Users\Student\Desktop\PART 3 POE BUCHULE MQINGWANA ST10367481\PART 3\PART 3\bin\Debug\net6.0\PART 3.exe
+C:\Users\Student\Desktop\PART 3 POE BUCHULE MQINGWANA ST10367481\PART 3\PART 3\bin\Debug\net6.0\PART 3.deps.json
+C:\Users\Student\Desktop\PART 3 POE BUCHULE MQINGWANA ST10367481\PART 3\PART 3\bin\Debug\net6.0\PART 3.runtimeconfig.json
+C:\Users\Student\Desktop\PART 3 POE BUCHULE MQINGWANA ST10367481\PART 3\PART 3\bin\Debug\net6.0\PART 3.dll
+C:\Users\Student\Desktop\PART 3 POE BUCHULE MQINGWANA ST10367481\PART 3\PART 3\bin\Debug\net6.0\PART 3.pdb
+C:\Users\Student\Desktop\PART 3 POE BUCHULE MQINGWANA ST10367481\PART 3\PART 3\obj\Debug\net6.0\rpswa.dswa.cache.json
+C:\Users\Student\Desktop\PART 3 POE BUCHULE MQINGWANA ST10367481\PART 3\PART 3\obj\Debug\net6.0\PART 3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Student\Desktop\PART 3 POE BUCHULE MQINGWANA ST10367481\PART 3\PART 3\obj\Debug\net6.0\PART 3.AssemblyInfoInputs.cache
+C:\Users\Student\Desktop\PART 3 POE BUCHULE MQINGWANA ST10367481\PART 3\PART 3\obj\Debug\net6.0\PART 3.AssemblyInfo.cs
+C:\Users\Student\Desktop\PART 3 POE BUCHULE MQINGWANA ST10367481\PART 3\PART 3\obj\Debug\net6.0\PART 3.csproj.CoreCompileInputs.cache
+C:\Users\Student\Desktop\PART 3 POE BUCHULE MQINGWANA ST10367481\PART 3\PART 3\obj\Debug\net6.0\PART 3.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Student\Desktop\PART 3 POE BUCHULE MQINGWANA ST10367481\PART 3\PART 3\obj\Debug\net6.0\PART 3.RazorAssemblyInfo.cache
+C:\Users\Student\Desktop\PART 3 POE BUCHULE MQINGWANA ST10367481\PART 3\PART 3\obj\Debug\net6.0\PART 3.RazorAssemblyInfo.cs
+C:\Users\Student\Desktop\PART 3 POE BUCHULE MQINGWANA ST10367481\PART 3\PART 3\obj\Debug\net6.0\rjimswa.dswa.cache.json
+C:\Users\Student\Desktop\PART 3 POE BUCHULE MQINGWANA ST10367481\PART 3\PART 3\obj\Debug\net6.0\rjsmrazor.dswa.cache.json
+C:\Users\Student\Desktop\PART 3 POE BUCHULE MQINGWANA ST10367481\PART 3\PART 3\obj\Debug\net6.0\rjsmcshtml.dswa.cache.json
+C:\Users\Student\Desktop\PART 3 POE BUCHULE MQINGWANA ST10367481\PART 3\PART 3\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Student\Desktop\PART 3 POE BUCHULE MQINGWANA ST10367481\PART 3\PART 3\obj\Debug\net6.0\scopedcss\bundle\PART 3.styles.css
+C:\Users\Student\Desktop\PART 3 POE BUCHULE MQINGWANA ST10367481\PART 3\PART 3\obj\Debug\net6.0\scopedcss\projectbundle\PART 3.bundle.scp.css
+C:\Users\Student\Desktop\PART 3 POE BUCHULE MQINGWANA ST10367481\PART 3\PART 3\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Student\Desktop\PART 3 POE BUCHULE MQINGWANA ST10367481\PART 3\PART 3\obj\Debug\net6.0\staticwebassets.build.json.cache
+C:\Users\Student\Desktop\PART 3 POE BUCHULE MQINGWANA ST10367481\PART 3\PART 3\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Student\Desktop\PART 3 POE BUCHULE MQINGWANA ST10367481\PART 3\PART 3\obj\Debug\net6.0\staticwebassets.build.endpoints.json
+C:\Users\Student\Desktop\PART 3 POE BUCHULE MQINGWANA ST10367481\PART 3\PART 3\obj\Debug\net6.0\staticwebassets.upToDateCheck.txt
+C:\Users\Student\Desktop\PART 3 POE BUCHULE MQINGWANA ST10367481\PART 3\PART 3\obj\Debug\net6.0\PART 3.dll
+C:\Users\Student\Desktop\PART 3 POE BUCHULE MQINGWANA ST10367481\PART 3\PART 3\obj\Debug\net6.0\refint\PART 3.dll
+C:\Users\Student\Desktop\PART 3 POE BUCHULE MQINGWANA ST10367481\PART 3\PART 3\obj\Debug\net6.0\PART 3.pdb
+C:\Users\Student\Desktop\PART 3 POE BUCHULE MQINGWANA ST10367481\PART 3\PART 3\obj\Debug\net6.0\PART 3.genruntimeconfig.cache
+C:\Users\Student\Desktop\PART 3 POE BUCHULE MQINGWANA ST10367481\PART 3\PART 3\obj\Debug\net6.0\ref\PART 3.dll
