@@ -114,7 +114,7 @@ Then open the URL shown in the console (typically `https://localhost:xxxx`) and 
 
 ## Notes & Known Limitations
 
-- Passwords are currently stored in plain text and lecturer accounts are created with a placeholder password — this is fine for a class demo but **not** suitable for production use.
+- Passwords are currently stored in plain text and lecturer accounts are created with a placeholder password - this is fine for a class demo but **not** suitable for production use.
 - Data is served through `IDataService`; if this is backed by an in-memory store rather than a database, claims and lecturers will reset when the app restarts.
 - Role checks are implemented manually per action rather than via ASP.NET Core's built-in `[Authorize]`/policy system.
 
