@@ -31,7 +31,7 @@ Authentication and role checks are handled via session state, with each controll
 - **Claim submission** - lecturers submit module name, hours worked, and hourly rate; the total amount is calculated automatically (`LecturerController`)
 - **Claim history** - lecturers can view all claims they've submitted and their current status
 - **Approval workflow** - coordinators approve or reject submitted claims, with rejection comments captured and an approver/timestamp recorded (`CoordinatorController`)
-- **Reporting** — academic managers get an all-claims view plus aggregate stats (total claims, approved, pending, total payments) (`AcademicManagerController`)
+- **Reporting** - academic managers get an all-claims view plus aggregate stats (total claims, approved, pending, total payments) (`AcademicManagerController`)
 - **Lecturer management** - HR can add new lecturers, which automatically provisions a linked user account (`HRController`)
 - **Payment processing** - HR can view approved claims awaiting payment and mark them as paid in bulk (`HRController`)
 - **Server-side validation** - model validation via Data Annotations (required fields, string length, numeric ranges, email format)
@@ -82,9 +82,9 @@ PART 3/
 - `ModuleName` (required, max 100 chars)
 - `HoursWorked` (required, 1–200)
 - `HourlyRate` (required, 0–1000)
-- `TotalAmount` — computed (`HoursWorked × HourlyRate`)
+- `TotalAmount` - computed (`HoursWorked × HourlyRate`)
 - `ClaimDate`, `SubmittedDate`, `ApprovedDate`, `ApprovedBy`, `Comments`
-- `Status` — `Submitted` / `Approved` / `Rejected` / `Paid`
+- `Status` - `Submitted` / `Approved` / `Rejected` / `Paid`
 
 **Lecturer**
 - `FirstName`, `LastName`, `Email` (validated), `Department`, `PhoneNumber`, `DateCreated`
