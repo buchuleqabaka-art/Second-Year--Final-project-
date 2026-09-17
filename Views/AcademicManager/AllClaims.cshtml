@@ -1,0 +1,46 @@
+﻿@model List<PART_3.Models.Claim>
+
+@{
+    ViewData["Title"] = "All Claims";
+}
+
+<h2>All Claims Overview</h2>
+
+<div class="table-responsive">
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Lecturer</th>
+                <th>Module</th>
+                <th>Hours</th>
+                <th>Rate</th>
+                <th>Total</th>
+                <th>Status</th>
+                <th>Claim Date</th>
+                <th>Submitted</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var claim in Model)
+            {
+                <tr>
+                    <td>@claim.Lecturer.FirstName @claim.Lecturer.LastName</td>
+                    <td>@claim.ModuleName</td>
+                    <td>@claim.HoursWorked</td>
+                    <td>R @claim.HourlyRate</td>
+                    <td>R @claim.TotalAmount</td>
+                    <td>
+                        <span class="badge
+                                @(claim.Status == PART_3.Models.ClaimStatus.Approved ? "bg-success" :
+                                                            claim.Status == PART_3.Models.ClaimStatus.Rejected ? "bg-danger" :
+                                                            claim.Status == PART_3.Models.ClaimStatus.Paid ? "bg-info" : "bg-warning")">
+                        @claim.Status
+                    </span>
+                </td>
+                <td>@claim.ClaimDate.ToShortDateString()</td>
+                <td>@claim.SubmittedDate.ToShortDateString()</td>
+            </tr>
+                        }
+        </tbody>
+    </table>
+</div>

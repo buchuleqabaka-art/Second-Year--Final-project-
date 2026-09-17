@@ -1,0 +1,69 @@
+﻿@model List<PART_3.Models.Claim>
+
+@{
+    ViewData["Title"] = "Payment Report";
+    var totalAmount = Model.Sum(c => c.TotalAmount);
+}
+
+<h2>Payment Report - Approved Claims</h2>
+
+<div class="row mb-4">
+    <div class="col-md-6">
+        <div class="card bg-light">
+            <div class="card-body">
+                <h5 class="card-title">Summary</h5>
+                <p class="card-text">
+                    <strong>Total Claims:</strong> @Model.Count<br>
+                    <strong>Total Amount:</strong> R @totalAmount
+                </p>
+                @if (Model.Any())
+                {
+                    <form method="post" action="@Url.Action("ProcessPayments", "HR")">
+                        <button type="submit" class="btn btn-success">Process All Payments</button>
+                    </form>
+                }
+            </div>
+        </div>
+    </div>
+</div>
+
+@if (Model.Any())
+{
+    <div class="table-responsive">
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Lecturer</th>
+                    <th>Module</th>
+                    <th>Hours</th>
+                    <th>Rate</th>
+                    <th>Total</th>
+                    <th>Claim Date</th>
+                    <th>Approved By</th>
+                    <th>Approved Date</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var claim in Model)
+                {
+                    <tr>
+                        <td>@claim.Lecturer.FirstName @claim.Lecturer.LastName</td>
+                        <td>@claim.ModuleName</td>
+                        <td>@claim.HoursWorked</td>
+                        <td>R @claim.HourlyRate</td>
+                        <td>R @claim.TotalAmount</td>
+                        <td>@claim.ClaimDate.ToShortDateString()</td>
+                        <td>@claim.ApprovedBy</td>
+                        <td>@claim.ApprovedDate?.ToShortDateString()</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+}
+else
+{
+    <div class="alert alert-info">
+        No approved claims pending payment.
+    </div>
+}

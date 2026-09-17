@@ -1,0 +1,53 @@
+﻿@model PART_3.Models.Claim
+
+@{
+    ViewData["Title"] = "Submit Claim ";
+}
+
+<h2>Submit New Claim </h2>
+
+<form method="post" action="/Lecturer/SubmitClaim">
+    @Html.AntiForgeryToken()
+
+    <div class="mb-3">
+        <label>Module Name *</label>
+        <input type="text" name="ModuleName" class="form-control" value="@Model?.ModuleName" required />
+    </div>
+
+    <div class="mb-3">
+        <label>Hours Worked *</label>
+        <input type="number" name="HoursWorked" class="form-control" value="@Model?.HoursWorked" min="1" max="200" required />
+    </div>
+
+    <div class="mb-3">
+        <label>Hourly Rate *</label>
+        <input type="number" name="HourlyRate" class="form-control" value="@Model?.HourlyRate" min="0" max="1000" required />
+    </div>
+
+    <div class="mb-3">
+        <label>Claim Date *</label>
+        <input type="date" name="ClaimDate" class="form-control" value="@DateTime.Today.ToString("yyyy-MM-dd")" required />
+    </div>
+
+    <div class="mb-3">
+        <label>Total Amount (R)</label>
+        <input type="text" class="form-control" id="totalAmount" readonly value="0.00" />
+    </div>
+
+    <button type="submit" class="btn btn-success">Submit Claim</button>
+    <a href="@Url.Action("MyClaims")" class="btn btn-secondary">View My Claims</a>
+</form>
+
+<script>
+    $(document).ready(function() {
+        function calculateTotal() {
+            var hours = parseInt($('input[name="HoursWorked"]').val()) || 0;
+            var rate = parseInt($('input[name="HourlyRate"]').val()) || 0;
+            var total = hours * rate;
+            $('#totalAmount').val('R ' + total.toFixed(2));
+        }
+
+        $('input[name="HoursWorked"], input[name="HourlyRate"]').on('input', calculateTotal);
+        calculateTotal();
+    });
+</script>

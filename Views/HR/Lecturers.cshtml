@@ -1,0 +1,46 @@
+﻿@model List<PART_3.Models.Lecturer>
+
+@{
+    ViewData["Title"] = "Manage Lecturers";
+}
+
+<h2>Lecturer Management</h2>
+
+<div class="mb-3">
+    <a href="@Url.Action("AddLecturer")" class="btn btn-primary">Add New Lecturer</a>
+</div>
+
+@if (Model.Any())
+{
+    <div class="table-responsive">
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Department</th>
+                    <th>Phone</th>
+                    <th>Date Added</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var lecturer in Model)
+                {
+                    <tr>
+                        <td>@lecturer.FirstName @lecturer.LastName</td>
+                        <td>@lecturer.Email</td>
+                        <td>@lecturer.Department</td>
+                        <td>@lecturer.PhoneNumber</td>
+                        <td>@lecturer.DateCreated.ToShortDateString()</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+}
+else
+{
+    <div class="alert alert-info">
+        No lecturers found. Add your first lecturer using the button above.
+    </div>
+}
