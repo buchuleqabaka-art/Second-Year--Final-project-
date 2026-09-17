@@ -26,29 +26,29 @@ Authentication and role checks are handled via session state, with each controll
 
 ## Features
 
-- **Login / Logout** — session-based authentication (`AccountController`)
-- **Role-aware dashboard** — shows live totals for claims, approvals, pending items and payments (`HomeController`)
-- **Claim submission** — lecturers submit module name, hours worked, and hourly rate; the total amount is calculated automatically (`LecturerController`)
-- **Claim history** — lecturers can view all claims they've submitted and their current status
-- **Approval workflow** — coordinators approve or reject submitted claims, with rejection comments captured and an approver/timestamp recorded (`CoordinatorController`)
+- **Login / Logout** - session-based authentication (`AccountController`)
+- **Role-aware dashboard** - shows live totals for claims, approvals, pending items and payments (`HomeController`)
+- **Claim submission** - lecturers submit module name, hours worked, and hourly rate; the total amount is calculated automatically (`LecturerController`)
+- **Claim history** - lecturers can view all claims they've submitted and their current status
+- **Approval workflow** - coordinators approve or reject submitted claims, with rejection comments captured and an approver/timestamp recorded (`CoordinatorController`)
 - **Reporting** — academic managers get an all-claims view plus aggregate stats (total claims, approved, pending, total payments) (`AcademicManagerController`)
-- **Lecturer management** — HR can add new lecturers, which automatically provisions a linked user account (`HRController`)
-- **Payment processing** — HR can view approved claims awaiting payment and mark them as paid in bulk (`HRController`)
-- **Server-side validation** — model validation via Data Annotations (required fields, string length, numeric ranges, email format)
+- **Lecturer management** - HR can add new lecturers, which automatically provisions a linked user account (`HRController`)
+- **Payment processing** - HR can view approved claims awaiting payment and mark them as paid in bulk (`HRController`)
+- **Server-side validation** - model validation via Data Annotations (required fields, string length, numeric ranges, email format)
 
 ---
 
 ## Claim Lifecycle
 
 ```
-Submitted → Approved → Paid
+Submitted - Approved - Paid
          ↘ Rejected
 ```
 
-- `Submitted` — created by a lecturer, awaiting coordinator review
-- `Approved` — accepted by a coordinator, awaiting HR payment
-- `Rejected` — declined by a coordinator, with comments explaining why
-- `Paid` — processed by HR in the Payment Report
+- `Submitted` - created by a lecturer, awaiting coordinator review
+- `Approved` - accepted by a coordinator, awaiting HR payment
+- `Rejected` - declined by a coordinator, with comments explaining why
+- `Paid` - processed by HR in the Payment Report
 
 ---
 
